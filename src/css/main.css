@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+#app {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background-image: url("../img/grey_wash_wall.png");
+  color: #7afa7d;
+  text-align: center;
+  padding: 30px;
+  height: 240px;
+}
+
+header h1 {
+  font-weight: 600;
+}
+
+form {
+  margin-top: 25px;
+}
+
+input {
+  height: 30px;
+}
+
+input[type=text] {
+  border-radius: 7px 0 0 7px;
+  border: 1px solid #9df59e;
+}
+
+input[type=submit] {
+  border-radius: 0 7px 7px 0;
+  margin-left: 3px;
+  padding: 4px;
+  background-color: #9df59e;
+}
+
+.message {
+  margin-top: 15px;
+}
+
+.country-distance {
+  color: white;
+  margin-top: 15px;
+}
+
+.country-distance strong {
+  font-size: 1.6em;
+}
+
+.main-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  line-height: 2em;
+}
+
+.country-info, .country-weather {
+  margin: 50px;
+  padding: 37px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 0 40px 0 40px;
+
+}
+.country-info {
+  display: none;
+}
+.country-info.active {
+  display: block;
+}
+
+.country-weather h2 {
+  border-bottom: 3px solid #7afa7d;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 2em;
+}
+
+ul span {
+  font-weight: 600;
+}
+
+.flag-img {
+  width: 286px;
+  height: 174px;
+  border: 2px solid grey;
+}
+
+.flag-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-info {
+  background: url("../img/landscape.jpg") no-repeat;
+  height: 580px;
+}
+
+.articles {
+  background-image: url("../img/grey_wash_wall.png");
+  padding: 10px;
+}
+
+.articles h3 {
+  font-size: 1.5em;
+  color: white;
+}
+
+.article a {
+  color: #7afa7d;
+}
+
+.article p {
+  color: white;
+  line-height: 1.5em;
+}
+
+.country-image {
+  text-align: center;
+  margin-top: 20px;
+}
